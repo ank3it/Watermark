@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC192D471786B53700EB9A27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC192D461786B53700EB9A27 /* UIKit.framework */; };
+		BC192D491786B53700EB9A27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC192D481786B53700EB9A27 /* Foundation.framework */; };
+		BC192D4B1786B53700EB9A27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC192D4A1786B53700EB9A27 /* CoreGraphics.framework */; };
+		BC192D511786B53700EB9A27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC192D4F1786B53700EB9A27 /* InfoPlist.strings */; };
+		BC192D531786B53700EB9A27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC192D521786B53700EB9A27 /* main.m */; };
+		BC192D571786B53700EB9A27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC192D561786B53700EB9A27 /* AppDelegate.m */; };
+		BC192D5A1786B53700EB9A27 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC192D581786B53700EB9A27 /* MainStoryboard_iPhone.storyboard */; };
+		BC192D5D1786B53700EB9A27 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC192D5B1786B53700EB9A27 /* MainStoryboard_iPad.storyboard */; };
+		BC192D601786B53700EB9A27 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC192D5F1786B53700EB9A27 /* FirstViewController.m */; };
+		BC192D621786B53800EB9A27 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BC192D611786B53800EB9A27 /* first.png */; };
+		BC192D641786B53800EB9A27 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC192D631786B53800EB9A27 /* first@2x.png */; };
+		BC192D671786B53800EB9A27 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC192D661786B53800EB9A27 /* SecondViewController.m */; };
+		BC192D691786B53800EB9A27 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BC192D681786B53800EB9A27 /* second.png */; };
+		BC192D6B1786B53800EB9A27 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC192D6A1786B53800EB9A27 /* second@2x.png */; };
+		BC192D731786B53900EB9A27 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC192D721786B53900EB9A27 /* SenTestingKit.framework */; };
+		BC192D741786B53900EB9A27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC192D461786B53700EB9A27 /* UIKit.framework */; };
+		BC192D751786B53900EB9A27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC192D481786B53700EB9A27 /* Foundation.framework */; };
+		BC192D7D1786B53900EB9A27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC192D7B1786B53900EB9A27 /* InfoPlist.strings */; };
+		BC192D801786B53900EB9A27 /* WatermarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC192D7F1786B53900EB9A27 /* WatermarkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC192D761786B53900EB9A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC192D391786B53700EB9A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC192D411786B53700EB9A27;
+			remoteInfo = Watermark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC192D421786B53700EB9A27 /* Watermark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC192D461786B53700EB9A27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC192D481786B53700EB9A27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC192D4A1786B53700EB9A27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC192D4E1786B53700EB9A27 /* Watermark-Info.plist */ = {isa = PBXFileReference; path = "Watermark-Info.plist"; sourceTree = "<group>"; };
+		BC192D501786B53700EB9A27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC192D521786B53700EB9A27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC192D541786B53700EB9A27 /* Watermark-Prefix.pch */ = {isa = PBXFileReference; path = "Watermark-Prefix.pch"; sourceTree = "<group>"; };
+		BC192D551786B53700EB9A27 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC192D561786B53700EB9A27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC192D591786B53700EB9A27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BC192D5C1786B53700EB9A27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BC192D5E1786B53700EB9A27 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		BC192D5F1786B53700EB9A27 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BC192D611786B53800EB9A27 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		BC192D631786B53800EB9A27 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		BC192D651786B53800EB9A27 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		BC192D661786B53800EB9A27 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BC192D681786B53800EB9A27 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		BC192D6A1786B53800EB9A27 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		BC192D711786B53900EB9A27 /* WatermarkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermarkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC192D721786B53900EB9A27 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC192D7A1786B53900EB9A27 /* WatermarkTests-Info.plist */ = {isa = PBXFileReference; path = "WatermarkTests-Info.plist"; sourceTree = "<group>"; };
+		BC192D7C1786B53900EB9A27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC192D7E1786B53900EB9A27 /* WatermarkTests.h */ = {isa = PBXFileReference; path = WatermarkTests.h; sourceTree = "<group>"; };
+		BC192D7F1786B53900EB9A27 /* WatermarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermarkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC192D3F1786B53700EB9A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC192D471786B53700EB9A27 /* UIKit.framework in Frameworks */,
+				BC192D491786B53700EB9A27 /* Foundation.framework in Frameworks */,
+				BC192D4B1786B53700EB9A27 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC192D6D1786B53900EB9A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC192D731786B53900EB9A27 /* SenTestingKit.framework in Frameworks */,
+				BC192D741786B53900EB9A27 /* UIKit.framework in Frameworks */,
+				BC192D751786B53900EB9A27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC192D371786B53700EB9A27 = {
+			isa = PBXGroup;
+			children = (
+				BC192D4C1786B53700EB9A27 /* Watermark */,
+				BC192D781786B53900EB9A27 /* WatermarkTests */,
+				BC192D451786B53700EB9A27 /* Frameworks */,
+				BC192D431786B53700EB9A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC192D431786B53700EB9A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC192D421786B53700EB9A27 /* Watermark.app */,
+				BC192D711786B53900EB9A27 /* WatermarkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC192D451786B53700EB9A27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC192D461786B53700EB9A27 /* UIKit.framework */,
+				BC192D481786B53700EB9A27 /* Foundation.framework */,
+				BC192D4A1786B53700EB9A27 /* CoreGraphics.framework */,
+				BC192D721786B53900EB9A27 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC192D4C1786B53700EB9A27 /* Watermark */ = {
+			isa = PBXGroup;
+			children = (
+				BC192D551786B53700EB9A27 /* AppDelegate.h */,
+				BC192D561786B53700EB9A27 /* AppDelegate.m */,
+				BC192D581786B53700EB9A27 /* MainStoryboard_iPhone.storyboard */,
+				BC192D5B1786B53700EB9A27 /* MainStoryboard_iPad.storyboard */,
+				BC192D5E1786B53700EB9A27 /* FirstViewController.h */,
+				BC192D5F1786B53700EB9A27 /* FirstViewController.m */,
+				BC192D611786B53800EB9A27 /* first.png */,
+				BC192D631786B53800EB9A27 /* first@2x.png */,
+				BC192D651786B53800EB9A27 /* SecondViewController.h */,
+				BC192D661786B53800EB9A27 /* SecondViewController.m */,
+				BC192D681786B53800EB9A27 /* second.png */,
+				BC192D6A1786B53800EB9A27 /* second@2x.png */,
+				BC192D4D1786B53700EB9A27 /* Supporting Files */,
+			);
+			path = Watermark;
+			sourceTree = "<group>";
+		};
+		BC192D4D1786B53700EB9A27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC192D4E1786B53700EB9A27 /* Watermark-Info.plist */,
+				BC192D4F1786B53700EB9A27 /* InfoPlist.strings */,
+				BC192D521786B53700EB9A27 /* main.m */,
+				BC192D541786B53700EB9A27 /* Watermark-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC192D781786B53900EB9A27 /* WatermarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC192D7E1786B53900EB9A27 /* WatermarkTests.h */,
+				BC192D7F1786B53900EB9A27 /* WatermarkTests.m */,
+				BC192D791786B53900EB9A27 /* Supporting Files */,
+			);
+			path = WatermarkTests;
+			sourceTree = "<group>";
+		};
+		BC192D791786B53900EB9A27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC192D7A1786B53900EB9A27 /* WatermarkTests-Info.plist */,
+				BC192D7B1786B53900EB9A27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC192D411786B53700EB9A27 /* Watermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC192D831786B53900EB9A27 /* Build configuration list for PBXNativeTarget "Watermark" */;
+			buildPhases = (
+				BC192D3E1786B53700EB9A27 /* Sources */,
+				BC192D3F1786B53700EB9A27 /* Frameworks */,
+				BC192D401786B53700EB9A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watermark;
+			productName = Watermark;
+			productReference = BC192D421786B53700EB9A27 /* Watermark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC192D701786B53900EB9A27 /* WatermarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC192D861786B53900EB9A27 /* Build configuration list for PBXNativeTarget "WatermarkTests" */;
+			buildPhases = (
+				BC192D6C1786B53900EB9A27 /* Sources */,
+				BC192D6D1786B53900EB9A27 /* Frameworks */,
+				BC192D6E1786B53900EB9A27 /* Resources */,
+				BC192D6F1786B53900EB9A27 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC192D771786B53900EB9A27 /* PBXTargetDependency */,
+			);
+			name = WatermarkTests;
+			productName = WatermarkTests;
+			productReference = BC192D711786B53900EB9A27 /* WatermarkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC192D391786B53700EB9A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "University of Waterloo";
+			};
+			buildConfigurationList = BC192D3C1786B53700EB9A27 /* Build configuration list for PBXProject "Watermark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC192D371786B53700EB9A27;
+			productRefGroup = BC192D431786B53700EB9A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC192D411786B53700EB9A27 /* Watermark */,
+				BC192D701786B53900EB9A27 /* WatermarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC192D401786B53700EB9A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC192D511786B53700EB9A27 /* InfoPlist.strings in Resources */,
+				BC192D5A1786B53700EB9A27 /* MainStoryboard_iPhone.storyboard in Resources */,
+				BC192D5D1786B53700EB9A27 /* MainStoryboard_iPad.storyboard in Resources */,
+				BC192D621786B53800EB9A27 /* first.png in Resources */,
+				BC192D641786B53800EB9A27 /* first@2x.png in Resources */,
+				BC192D691786B53800EB9A27 /* second.png in Resources */,
+				BC192D6B1786B53800EB9A27 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC192D6E1786B53900EB9A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC192D7D1786B53900EB9A27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC192D6F1786B53900EB9A27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC192D3E1786B53700EB9A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC192D531786B53700EB9A27 /* main.m in Sources */,
+				BC192D571786B53700EB9A27 /* AppDelegate.m in Sources */,
+				BC192D601786B53700EB9A27 /* FirstViewController.m in Sources */,
+				BC192D671786B53800EB9A27 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC192D6C1786B53900EB9A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC192D801786B53900EB9A27 /* WatermarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC192D771786B53900EB9A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC192D411786B53700EB9A27 /* Watermark */;
+			targetProxy = BC192D761786B53900EB9A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC192D4F1786B53700EB9A27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC192D501786B53700EB9A27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC192D581786B53700EB9A27 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC192D591786B53700EB9A27 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BC192D5B1786B53700EB9A27 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC192D5C1786B53700EB9A27 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BC192D7B1786B53900EB9A27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC192D7C1786B53900EB9A27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC192D811786B53900EB9A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC192D821786B53900EB9A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC192D841786B53900EB9A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watermark/Watermark-Prefix.pch";
+				INFOPLIST_FILE = "Watermark/Watermark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC192D851786B53900EB9A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watermark/Watermark-Prefix.pch";
+				INFOPLIST_FILE = "Watermark/Watermark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC192D871786B53900EB9A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Watermark.app/Watermark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watermark/Watermark-Prefix.pch";
+				INFOPLIST_FILE = "WatermarkTests/WatermarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BC192D881786B53900EB9A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Watermark.app/Watermark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watermark/Watermark-Prefix.pch";
+				INFOPLIST_FILE = "WatermarkTests/WatermarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC192D3C1786B53700EB9A27 /* Build configuration list for PBXProject "Watermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC192D811786B53900EB9A27 /* Debug */,
+				BC192D821786B53900EB9A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC192D831786B53900EB9A27 /* Build configuration list for PBXNativeTarget "Watermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC192D841786B53900EB9A27 /* Debug */,
+				BC192D851786B53900EB9A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC192D861786B53900EB9A27 /* Build configuration list for PBXNativeTarget "WatermarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC192D871786B53900EB9A27 /* Debug */,
+				BC192D881786B53900EB9A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC192D391786B53700EB9A27 /* Project object */;
+}
